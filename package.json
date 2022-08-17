@@ -1,6 +1,6 @@
 {
   "name": "@hoagiesonmain/shared-be",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "",
   "files": [
     "dist"
@@ -17,7 +17,8 @@
     "@nestjs/common": "^9.0.11",
     "@nestjs/graphql": "^10.0.21",
     "@nestjs/mongoose": "^9.2.0",
-    "mongoose": "^6.5.2"
+    "mongoose": "^6.5.2",
+    "reflect-metadata": "^0.1.13"
   },
   "devDependencies": {
     "typescript": "^4.7.4"
