@@ -1,6 +1,6 @@
 {
   "name": "@hoagiesonmain/shared-be",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "files": [
     "dist"
@@ -14,6 +14,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@nestjs/common": "^9.0.11",
     "@nestjs/graphql": "^10.0.21",
     "@nestjs/mongoose": "^9.2.0",
     "mongoose": "^6.5.2"
