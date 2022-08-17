@@ -1,0 +1,24 @@
+{
+  "name": "hom-be-shared",
+  "version": "1.0.0",
+  "description": "",
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rm -rf dist && tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@nestjs/graphql": "^10.0.21",
+    "@nestjs/mongoose": "^9.2.0",
+    "mongoose": "^6.5.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
+}
