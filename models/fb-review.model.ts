@@ -3,7 +3,7 @@ import {Prop, Schema, SchemaFactory} from '@nestjs/mongoose';
 import {ObjectType, Field} from '@nestjs/graphql';
 import mongoose from 'mongoose';
 
-export interface ICategory extends Document {
+export interface IReview extends Document {
   _id: MongooseSchema.Types.ObjectId;
   createdAt: Date;
   review: string;
@@ -11,7 +11,7 @@ export interface ICategory extends Document {
 
 @ObjectType()
 @Schema()
-export class FbReview implements ICategory {
+export class FbReview implements IReview {
   @Field(() => String)
   _id: MongooseSchema.Types.ObjectId;
 
